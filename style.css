@@ -6,11 +6,13 @@
 }
 
 body {
-    background-image: linear-gradient(to right, rgb(131, 6, 58), rgb(218, 58, 58), rgb(108, 196, 149));
+    /* background-image: linear-gradient(to right, rgb(143, 18, 18) , rgb(247, 251, 250)); */
+    background-color: rgb(142, 180, 159);
 }
 
 .app{
-    background-color: rgb(215, 89, 72);
+    
+    background-image: linear-gradient(to right, rgba(220, 36, 36, 0.973) , rgb(255, 255, 253));
     width: 90%;
     max-width: 600px;
     margin: 100px auto 0;
@@ -39,8 +41,8 @@ body {
 }
 
 .btn {
-    background: rgb(139, 119, 86);
-    color: #222;
+    background: rgb(246, 185, 147);
+    color: #10095a;
     font-weight: 500;
     width: 100%;
     border: 1px solid #222;
@@ -53,8 +55,8 @@ body {
 }
 
 .btn:hover:not([disabled]) {
-    background: #222;
-    color: #0b93a2;
+    background: #1b1218;
+    color: #b0f12c;
 }
 
 .btn:disabled {
@@ -62,8 +64,8 @@ body {
     cursor: no-drop;
 }
 
-#next-btn {background: #001e4d;
-    color: #b21d4a;
+#next-btn {background: #641942;
+    color: #f70505;
     font-weight: 500;
     width: 150px;
     border: 0;
@@ -84,4 +86,4 @@ body {
 
 
 }
-.incurrect{background: #ff9393;}
+.incurrect{background: #c10808;}
